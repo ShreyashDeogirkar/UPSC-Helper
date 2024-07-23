@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const factElement = document.getElementById('fact');
     const button = document.getElementById('fetch-fact');
     const topicInput = document.getElementById('topic');
-    const apiKey = 'SniCleDkTLTdawPDRP5noA==41PSUmXVD6ti98Qx'; 
+    const apiKey = 'YOUR_API_KEY';   //ADD YOUR API KEY
   
     function fetchFact(topic) {
       const url = `https://api.api-ninjas.com/v1/historicalevents?text=${encodeURIComponent(topic)}`;
